@@ -31,11 +31,10 @@
 </template>
 
 <script>
-  var config = {
-  
-  };
 
-  firebase.initializeApp(config)
+import config from './firebase_config'
+
+firebase.initializeApp(config)
 
   var usersRef = firebase.database().ref('/users')
 
