@@ -32,11 +32,7 @@
 
 <script>
   var config = {
-    apiKey: "AIzaSyB7qCRDknwYhWP7sHgNp5bjjx39LSrZ8Gc",
-    authDomain: "goldentime-f5872.firebaseapp.com",
-    databaseURL: "https://goldentime-f5872.firebaseio.com",
-    storageBucket: "goldentime-f5872.appspot.com",
-    messagingSenderId: "374742743994"
+  
   };
 
   firebase.initializeApp(config)
